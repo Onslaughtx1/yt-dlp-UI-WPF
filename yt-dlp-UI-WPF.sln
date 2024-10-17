@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35312.102
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "yt-dlp-UI-WPF", "yt-dlp-UI-WPF.csproj", "{562BB640-085D-49A4-98D2-2E829192C91E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{562BB640-085D-49A4-98D2-2E829192C91E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{562BB640-085D-49A4-98D2-2E829192C91E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{562BB640-085D-49A4-98D2-2E829192C91E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{562BB640-085D-49A4-98D2-2E829192C91E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B67FF197-FA4D-4677-9F93-A8E84343790E}
+	EndGlobalSection
+EndGlobal
