@@ -22,5 +22,15 @@ namespace yt_dlp_UI_WPF
             InitializeComponent();
             
         }
+        private void pnlMainGrid_MouseUp(object sender, MouseButtonEventArgs e)
+        {
+            MessageBox.Show("You clicked me at " + e.GetPosition(this).ToString());
+        }
+
+        private void eventButton_Click(object sender, RoutedEventArgs e)
+        {
+            MessageBox.Show("You clicked me");
+
+        }
     }
 }

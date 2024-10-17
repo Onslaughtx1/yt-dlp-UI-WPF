@@ -8,9 +8,19 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
 
-    <Grid>
-        <TextBlock HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="72">
+    <Grid Name="pnlMainGrid" MouseUp="pnlMainGrid_MouseUp" Background="LightBlue">
+        <!-- First Text Block -->
+        <TextBlock HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="50">
             Hello, WPF!
         </TextBlock>
+
+        <!-- First Button Control -->
+        <Button Name="eventButton" Click="eventButton_Click" FontWeight="Bold" Height="30" Width="140" VerticalAlignment="Bottom" Margin="20">
+            <WrapPanel>
+                <TextBlock Foreground="Blue">Multi</TextBlock>
+                <TextBlock Foreground="Red">Color</TextBlock>
+                <TextBlock>Button</TextBlock>
+            </WrapPanel>
+        </Button> 
     </Grid>
 </Window>
